@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Not DigitalNative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- 
+    ###################################
+        Main part of the assignment
+    ###################################
+        -->
+
+    <main class="ver-field">
+      <div class="ver-field__form">
+        <h1>Confirm your details:</h1>
+        <section class="ver-field__form__form-container">
+          <!-- <form
+                  class="form"
+                  action="https://formsubmit.co/digital.native.assignment@outlook.com"
+                  method="POST"
+                >
+                  <p class="form--name-text">Name:</p>
+                  <input
+                    class="form--name-input"
+                    type="text"
+                    name="name"
+                    placeholder="Enter Your Name"
+                    required
+                  />
+                  <p class="form--email-text">Email:</p>
+                  <input
+                    class="form--email-input"
+                    type="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                    required
+                  />
+                  <p class="form--card-text">Card:</p>
+                  <input
+                    class="form--card-input"
+                    type="text"
+                    id="numericInput"
+                    placeholder="Enter a Proxy Credit Card Number"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                  />
+                  <button class="form--button" type="submit">Submit</button>
+                </form> -->
+          <form class="form">
+            <p class="form--name-text">Name:</p>
+            <input
+            id="form--name-input"
+              class="form--name-input"
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <!-- <label for="form--name-input">The Name input field.</label> -->
+            <p class="form--email-text">Email:</p>
+            <input
+            id="form--email-input"
+              class="form--email-input"
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+            <!-- <label for="form--email-input">The Email input field.</label> -->
+            <p class="form--card-text">Card:</p>
+            <input
+            id="form--card-input"
+              class="form--card-input"
+              type="text"
+              id="numericInput"
+              placeholder="Enter a Proxy Credit Card Number"
+              required
+            />
+            <!-- <label for="form--card-input">The Card input field.</label> -->
+            <button class="form--button" type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <!-- onkeypress="return event.charCode >= 48 && event.charCode <= 57" -->
+
+    <!-- 
+    ########################################
+        Extras for more proffesional feel
+    #######################################
+        -->
+
+               <!-- 
+                ################
+                    Header
+                ################
+                -->
+
+    <header class="header">
+      <section class="header__section top-bar">
+        <h2><span>Not</span> DigitɅl Native</h2>
+        <div class="top-bar__web-icons">
+          <a href="#"><i alt="messages" class="fa-solid fa-envelope"></i></a>
+          <a href="#"><i alt="settings" class="fa-solid fa-gear"></i></a>
+          <a href="#"><i alt="profile" class="fa-solid fa-user"></i></a>
+        </div>
+      </section>
+    </header>
+
+               <!-- 
+                ################
+                    Search Field
+                ################
+                -->
+
+    <section class="search-field">
+      <input
+      id="search-field--search-bar"
+        class="search-field--search-bar"
+        type="text"
+        name="course-query"
+        placeholder="Browse courses"
+      />
+      <!-- <label for="search-field--search-bar">Input field for course browsing.</label> -->
+    </section>
+
+                 <!--    
+                ################
+                    Nav bar
+                ################
+                -->
+
+    <nav class="navbar">
+      <a class="navbar__href" href="#">
+        <div class="navbar--home"><p>home</p></div>
+      </a>
+      <a class="navbar__href" href="#">
+        <div class="navbar--pricing"><p>pricing</p></div>
+      </a>
+      <a class="navbar__href" href="#">
+        <div class="navbar--login"><p>login</p></div>
+      </a>
+      <a class="navbar__href" href="#">
+        <div class="navbar--about-us"><p>about us</p></div>
+      </a>
+    </nav>
+
+                 <!-- 
+                ################
+                    Footer
+                ################
+                -->
+
+    <footer class="footer">
+      <div class="footer--info">
+        <a href="#">
+          <p>Company</p>
+        </a>
+        <a href="#">
+          <p>Careers</p>
+        </a>
+        <a href="#">
+          <p>Contact us</p>
+        </a>
+        <a href="#">
+          <p>Privacy policy</p>
+        </a>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
